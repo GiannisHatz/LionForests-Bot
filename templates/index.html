@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link
+      rel="stylesheet"
+      href="https://maxst.icons8.com/vue-static/landings/line-awesome/line-awesome/1.3.0/css/line-awesome.min.css"
+    />
+    <link
+      rel="stylesheet"
+      href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css"
+      integrity="sha384-JcKb8q3iqJ61gNV9KGb8thSsNjpSL0n8PARn9HuZOnIxN0hoP+VmmDGMN5t9UJ0Z"
+      crossorigin="anonymous"
+    />
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat&family=Open+Sans&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="/static/style.css?version = 8" />
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+    <title>Lion-Forests Bot</title>
+  </head>
+  <body>
+    <div class="container justify-content-between">
+      <div class="header-row row justify-content-center mr-3">
+        <h1>Lion-Forests <i class="las la-robot"></i> Bot</h1>
+      </div>
+      <div class="row chat-container">
+        <ul class="col" id="box"></ul>
+      </div>
+      <!--<div class="send-row row mt-4" id="userInput">
+        <form class="message-form">
+          <input
+            class="form-control form-control-lg col-10 mr-2 ml-1"
+            type="text"
+            placeholder="Type your message here..."
+            id="textInput"
+          />
+          <button type="button" id="chatSend" class="btn btn-primary col-2">
+            <i class="lar la-paper-plane"></i>
+          </button>
+        </form>
+      </div>-->
+    </div>
+    <script src="static/js/script.js?version = 4"></script>
+    <script>
+       initializeVarsFromJinja({{ flow_index }}, {{ features|safe }}, {{ feature_values|safe }}, {{ categorical_features|safe }},
+            {{ mean_values|safe }}, {{ discrete_features|safe }}, {{ class_names|safe }}, {{ categorical_map|safe }});
+       getBotResponse();
+    </script>
+  </body>
+</html>
