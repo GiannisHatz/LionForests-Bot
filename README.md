@@ -1,7 +1,7 @@
 # LionForests-Bot
 LionForests Bot: Interactive dialogue between user-machine learning model via explanations
 
-Moving into the future, we can assume that systems or models that utilize Machine Learning technologies, increasingly sophisticated and complex, will be widely used to draw useful conclusions, after consuming and processing large volumes of data. Many of these models, although showing extremely high performance, are characterized as black boxes, as they do not provide information about the rationale behind the decisions they make, thus creating a climate of distrust and avoidance. To deal with this problem, it is necessary to synthesize techniques for explaining the aforementioned models, like Random Forest. In this work, which is based on ``LionForests'', a package used for local interpretation of Random Forests, we propose our own solution to the problem by expanding the current package and presenting the ''LionForest Bot'', a chatbot that performs interactive user-Random Forest model dialogue through explanations, towards more usable and understandable explanations for the users.
+Moving into the future, we can assume that systems or models that utilize Machine Learning technologies, increasingly sophisticated and complex, will be widely used to draw useful conclusions, after consuming and processing large volumes of data. Many of these models, although showing extremely high performance, are characterized as black boxes, as they do not provide information about the rationale behind the decisions they make, thus creating a climate of distrust and avoidance. To deal with this problem, it is necessary to synthesize techniques for explaining the aforementioned models, like Random Forest. In this work, which is based on ''LionForests'', a package used for local interpretation of Random Forests, we propose our own solution to the problem by expanding the current package and presenting the ''LionForest Bot'', a chatbot that performs interactive user-Random Forest model dialogue through explanations, towards more usable and understandable explanations for the users.
 
 ## LionForests
 Local Interpretation Of raNdom FORESTS. Building interpretable random forests!
@@ -13,7 +13,7 @@ Please ensure you have Flask installed. Then:
 ```bash
 python3 app.py
 ```
-After succesfully running LFBot, please go to your browser to the proposed url (probably will be the following):
+After successfully running LFBot, please go to your browser to the proposed url (probably will be the following):
 ```url
 http://127.0.0.1:5000/
 ```
